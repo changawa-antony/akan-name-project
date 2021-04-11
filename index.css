@@ -5,7 +5,7 @@
 
 body {
     background-image: url("./images/tim-mossholder-IQJbbw72PZc-unsplash.jpg");
-    background-position-y: ;
+    background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
     height: inherit;
@@ -17,4 +17,8 @@ form{
 
 .content-container{
     margin-top: 20px;
+}
+
+.caption-container{
+    margin-top: 30px;
 }
