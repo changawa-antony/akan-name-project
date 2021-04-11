@@ -25,7 +25,7 @@ $ git clone https://github.com/changawa-antony/akan-name-project
 3. Javascript
 4. Git
 ### View live Site
-View [live]()
+View [live](https://changawa-antony.github.io/akan-name-project/)
 
 *Get to explore* :rocket:
 ## Author
