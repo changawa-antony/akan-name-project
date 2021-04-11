@@ -14,3 +14,7 @@ body {
 form{
     color: white;
 }
+
+.content-container{
+    margin-top: 20px;
+}
