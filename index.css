@@ -2,3 +2,15 @@
     box-sizing: border-box;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
+
+body {
+    background-image: url("./images/tim-mossholder-IQJbbw72PZc-unsplash.jpg");
+    background-position-y: ;
+    height: 100%;
+    background-size: cover;
+    height: inherit;
+}
+
+form{
+    color: white;
+}
