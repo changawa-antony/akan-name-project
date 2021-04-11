@@ -32,3 +32,14 @@ form{
     margin-top: 20px;
     width: 200px;
 }
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+#namediv{
+    background-color: transparent;
+    height: max-content;
+    margin-left: 40px;
+    margin-right: 20px;
+}
