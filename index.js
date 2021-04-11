@@ -44,7 +44,9 @@ function formData(){
             var akanName = maleAkan[day];
         }
 
-        document.getElementById('display').innerHTML = "Your Akan name is " + akanName;
+        document.getElementById('tagdisplay').innerHTML = "Your Akan name is:";
+        document.getElementById('display').innerHTML = akanName;
+        document.getElementById('namediv').style.backgroundColor = "orange";
 
         document.getElementById("myForm").reset();
 
