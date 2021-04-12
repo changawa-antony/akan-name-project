@@ -19,6 +19,10 @@ $ git clone https://github.com/changawa-antony/akan-name-project
 ### Uses javascript
 * Make sure Javascript is enabled on your browser
 
+## Development Approach
+
+This app uses Behaviour Driven Approach (BDD) when the user has to input some data through the form and in return the application provides the Akan names for them.
+
 ### Technologies Used
 1. HTML
 2. CSS

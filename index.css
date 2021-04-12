@@ -55,6 +55,14 @@ footer{
     margin-left: 30px;
 }
 
+.form-check{
+    margin-bottom: 10px;
+}
+
+.form-check-input, .form-check-label{
+    cursor: pointer;
+}
+
 .fa-instagram {
     background: #125688;
     color: white;
