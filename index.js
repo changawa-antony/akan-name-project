@@ -15,6 +15,7 @@ function formData(){
     if (dateValue <= 0 || dateValue > 31&& monthValue <=0 || monthValue > 12){  
         document.getElementById('display').innerHTML = "Date or Month is invalid";
         return false;
+        
     }
       else{
 
