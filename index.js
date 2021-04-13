@@ -1,6 +1,7 @@
 document.getElementById("submit-btn").addEventListener("click", formData);
 
 function formData(){
+    event.preventDefault();
 
     /* getting the values from the form */
 
