@@ -38,7 +38,7 @@ form{
 }
 
 #namediv{
-    background-color: transparent;
+    display: none;
     height: max-content;
     margin-left: 40px;
     margin-right: 20px;
