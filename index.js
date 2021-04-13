@@ -17,7 +17,7 @@ function formData(){
         return false;
         
     }
-      else{
+    else{
 
         /* Getting last 2 digits of the year */
         
@@ -46,18 +46,14 @@ function formData(){
             var akanName = maleAkan[day];
         }
 
-        document.getElementById('tagdisplay').innerHTML = "Your Akan name is:";
         document.getElementById('display').innerHTML = akanName;
-        document.getElementById('namediv').style.backgroundColor = "orange";
-
-        document.getElementById("myForm").reset();
-
+        document.getElementById('namediv').style.display = "block";
+     
     };
+
+    document.getElementById("myForm").reset();
 
 };
    
 
     
-
-
-
