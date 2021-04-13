@@ -45,8 +45,7 @@ function formData(){
             var akanName = maleAkan[day];
         }
 
-        document.getElementById('tagdisplay').innerHTML.write = "Your Akan name is:";
-        document.getElementById('display').innerHTML = "Your Akan name " +akanName;
+        document.getElementById('display').innerHTML = akanName;
         document.getElementById('namediv').style.display = "block";
      
     };
@@ -57,6 +56,3 @@ function formData(){
    
 
     
-
-
-
