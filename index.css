@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+body {
+    background-image: url("./images/tim-mossholder-IQJbbw72PZc-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    height: inherit;
+}
+
+form{
+    color: white;
+    margin-right: 30px;
+}
+
+.form-group input{
+    width: 70%;
+}
+
+.content-container{
+    margin-top: 20px;
+}
+
+.caption-container{
+    margin-top: 30px;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 200px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+#namediv{
+    display: none;
+    height: max-content;
+    background-color: red;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    height: 50px;
+    bottom: 0px;
+}
+
+.footer-text p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.form-check{
+    margin-bottom: 10px;
+}
+
+.form-check-input, .form-check-label{
+    cursor: pointer;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  a:hover{
+      text-decoration: none;
+      color: rgb(201, 199, 199);
+  }
