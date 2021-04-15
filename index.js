@@ -1,7 +1,13 @@
+
+
+
 document.getElementById("submit-btn").addEventListener("click", formData);
 
-function formData(){
+
+
+function formData(validateForm){
     event.preventDefault();
+
 
     /* getting the values from the form */
 
@@ -12,11 +18,31 @@ function formData(){
 
     /*validating the date and month input*/
 
-    if (dateValue <= 0 || dateValue > 31&& monthValue <=0 || monthValue > 12){  
-        document.getElementById('display').innerHTML = "Date or Month is invalid";
+    if (isNaN(dateValue) || isNaN(monthValue) || isNaN(yearValue)){
+        document.getElementById('display').innerHTML = "Please fill in the form";
+        document.getElementById('namediv').style.display = "block";
+        document.getElementById('namediv').style.backgroundColor = "red";
+
         return false;
+    }
+
+   if (dateValue <= 1 || dateValue > 31 || dateValue == ""){  
+        document.getElementById('display').innerHTML = "Date provided is invalid";
+        return false;
+   }
+
+    if( monthValue <=1 || monthValue > 12 || monthValue == "") {
+        document.getElementById('display').innerHTML = "Month provided is invalid";
+    return false;
+    }
+
+    if( yearValue == "" || yearValue == isNaN ){
+        document.getElementById('display').innerHTML = "Year provided is invalid";
+        return false
         
     }
+
+
     else{
 
         /* Getting last 2 digits of the year */
@@ -46,8 +72,9 @@ function formData(){
             var akanName = maleAkan[day];
         }
 
-        document.getElementById('display').innerHTML = akanName;
+        document.getElementById('display').innerHTML = "Your Akan Name is " +akanName;
         document.getElementById('namediv').style.display = "block";
+        document.getElementById('namediv').style.backgroundColor = "rgb(255, 192, 74)";
      
     };
 

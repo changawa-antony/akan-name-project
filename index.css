@@ -40,6 +40,7 @@ form{
 #namediv{
     display: none;
     height: max-content;
+    background-color: red;
     margin-left: 40px;
     margin-right: 20px;
 }
