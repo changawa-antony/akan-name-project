@@ -1,9 +1,5 @@
 
-
-
 document.getElementById("submit-btn").addEventListener("click", formData);
-
-
 
 function formData(validateForm){
     event.preventDefault();
