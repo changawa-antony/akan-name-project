@@ -54,7 +54,7 @@ function formData(validateForm){
         /* Getting day of birth */
 
         var getday =(((cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(monthValue+1)/10)) + dateValue) % 7;
-        var day = parseInt(getday.toFixed(0));
+        var day = Math.floor(getday);
 
         /* Getting Akan name */
 
